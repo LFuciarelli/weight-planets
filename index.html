@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Weight on Other Planets</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Your Weight on Other Planets</h1>
+    </header>
+    <section>
+        <div>
+            <p>Enter your weight in any unit:
+                <input type="number" name="txtweight" id="txtweight">
+            </p>
+            <p>
+                Choose a planet:
+            </p>
+            <p>
+                <input type="radio" name="radplanet" id="mercury" checked>
+                <label for="mercury">Mercury</label>
+            </p>
+            <p>
+                <input type="radio" name="radplanet" id="venus">
+                <label for="venus">Venus</label>
+            </p>
+            <p>
+                <input type="radio" name="radplanet" id="mars">
+                <label for="mars">Mars</label>
+            </p>
+            <p>
+                <input type="radio" name="radplanet" id="jupiter">
+                <label for="jupiter">Jupiter</label>
+            </p>
+            <p>
+                <input type="radio" name="radplanet" id="saturn">
+                <label for="saturn">Saturn</label>
+            </p>
+            <p>
+                <input type="radio" name="radplanet" id="uranus">
+                <label for="uranus">Uranus</label>
+            </p>
+            <p>
+                <input type="radio" name="radplanet" id="neptune">
+                <label for="neptune">Neptune</label>
+            </p>
+            <p>
+                <input type="button" value="Calculate" onclick="calculate()">
+            </p>
+        </div>
+        <div id="res">
+            <p style="text-align:center">
+                Enter your weight on Earth
+            </p>
+            <img src="earth.png" alt="Earth">
+        </div>
+    </section>
+    <footer>
+        <p><strong>The images of the planets are from NASA</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
